@@ -1,7 +1,37 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+:root {
+    
 }
 
 * {
-    
+    font-family: "Poppins";
+    margin: 0;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+}
+
+.blueberry-img {
+    width: 10%;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    transition: ease-in 0.2s;
+}
+
+
+
+
+
+
+
+
+.svg-bottom {
+    position: fixed;
+    bottom: 0;
 }
