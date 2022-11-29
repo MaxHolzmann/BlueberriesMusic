@@ -70,6 +70,20 @@
 
 .member-container {
     display: flex;
+    border-radius: 20px;
+    border: 2px solid var(--blue-svg-color);
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 50%;
+    gap: 5em;
+    text-align: center;
+    margin: 10px;
+}
+
+.member-container img {
+    width: 30%;
 }
 
 .svg-bottom {
@@ -94,9 +108,16 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .blueberry-img {
         width: 70%;
+    }
+    .member-container {
+        width: 80%;
+    }
+
+    .member-text-container {
+        font-size: 0.9em;
     }
 }
 
@@ -112,4 +133,5 @@
     .container {
         width: 80%;
     }
+
 }
