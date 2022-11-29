@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-    
+    --blue-svg-color: #0088ff;
 }
 
 * {
     font-family: "Poppins";
     margin: 0;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 1.7em;
+    background-color: var(--blue-svg-color)
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: darkblue;
+    transition: ease-in 0.2s;
+    scale: 1.1;
 }
 
 .top-container {
@@ -15,7 +35,8 @@
 }
 
 .blueberry-img {
-    width: 10%;
+    padding-top: 20px;
+    width: 30%;
 }
 
 .title {
@@ -25,13 +46,26 @@
 }
 
 
-
-
-
-
-
-
 .svg-bottom {
     position: fixed;
     bottom: 0;
+}
+
+@media screen and (max-width:1400px) {
+    .blueberry-img {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    .blueberry-img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blueberry-img {
+        width: 70%;
+    }
 }
