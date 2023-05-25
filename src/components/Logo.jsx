@@ -1,7 +1,7 @@
 export function Logo(props) {
   // potentially svg our logo or otherwise just return
   return (
-    <img className="object-contain h-20 w-35" src='/blueberry-note.png'></img>
+    <img className="object-contain h-20 w-35" src='/blueberry-full.png'></img>
     // <svg aria-hidden="true" viewBox="0 0 109 40" {...props}>
     //   <path
     //     fillRule="evenodd"
