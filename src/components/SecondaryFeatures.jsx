@@ -40,7 +40,7 @@ const features = [
             strokeWidth={2}
             strokeLinecap="round"
             strokeLinejoin="round"
-          />
+/>
         </>
       )
     },
@@ -110,13 +110,10 @@ function Feature({ feature, isActive, className, ...props }) {
           isActive ? 'bg-blue-600' : 'bg-slate-500'
         )}
       >
-        <svg aria-hidden="true" className="h-9 w-9" fill="none">
-          <feature.icon />
-        </svg>
       </div>
       <h3
         className={clsx(
-          'mt-6 text-sm font-medium',
+          'mt-6 text-3xl font-medium',
           isActive ? 'text-blue-600' : 'text-slate-600'
         )}
       >

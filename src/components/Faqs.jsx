@@ -6,54 +6,37 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Do you take song requests?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
-    },
+      'Yes we do! However, we do have to find an arrangement and learn the arrangement before we can perform it, so we ask that any song requests are given 2-3 months in advance of your event.'    },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
-    },
-    {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'How much do you charge?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
-    },
+      'We have no set price, many factors go into determining the price, such as travel, length of performance, or any song requests. Some events we even do for free! Contact us with your situation for specifics.'    },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Our event is tomorrow.. can we hire you to sing?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
-    },
+      'We can not make any promises, but if you have no special song requests, we might be able to make it work! Feel free to contact us and we will always do our best to make it work, even on short notice. '    },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
-      answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
-    },
-    {
-      question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
-      answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
-    },
+        'This is another question we get..',
+        answer:
+      'I cannot think of more questions but it looks good this way.', },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question:
+      'This is another question we get..',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+    'I cannot think of more questions but it looks good this way.',
     },
     {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
-    },
-    {
-      question: 'I lost my password, how do I get into my account?',
+      question:
+      'This is another question we get..',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
-    },
+    'I cannot think of more questions but it looks good this way.',    },
   ],
 ]
 
@@ -78,11 +61,10 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Frequently Asked Questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Question not answered? (LINK HERE) Contact us! We can personally answer any specific question you may have.
           </p>
         </div>
         <ul
