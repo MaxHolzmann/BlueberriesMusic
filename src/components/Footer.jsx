@@ -9,12 +9,12 @@ export function Footer() {
     <footer className="bg-slate-50">
       <Container>
         <div className="py-16">
-          <Logo className="object-contain"/>
+          <Logo className=""/>
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="#features">Songs</NavLink>
-              <NavLink href="#testimonials">FAQ</NavLink>
-              <NavLink href="#pricing">Contact</NavLink>
+              <NavLink href="#songs">Songs</NavLink>
+              <NavLink href="#faq">FAQ</NavLink>
+              <NavLink href="/contact">Contact</NavLink>
             </div>
           </nav>
         </div>

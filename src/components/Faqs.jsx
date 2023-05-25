@@ -21,10 +21,11 @@ const faqs = [
       'We can not make any promises, but if you have no special song requests, we might be able to make it work! Feel free to contact us and we will always do our best to make it work, even on short notice. '    },
     {
       question:
-        'This is another question we get..',
+        'Do you need any equipment provided?',
         answer:
-      'I cannot think of more questions but it looks good this way.', },
-  ],
+        'Most of the time, no! If we are performing in a very large venue, we may need one microphone, but 99% of the time we just need ourselves!',
+      }
+      ],
   [
     {
       question:

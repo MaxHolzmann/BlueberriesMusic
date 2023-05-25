@@ -8,6 +8,8 @@ import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
+
+//temporarily removed Testiomonals until we have a bunch of them to use
 import { Testimonials } from '@/components/Testimonials'
 
 export default function Home() {
@@ -24,7 +26,6 @@ export default function Home() {
       <main>
         <Hero />
         <SecondaryFeatures />
-        <Testimonials />
         <Faqs />
       </main>
       <Footer />
