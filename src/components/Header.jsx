@@ -79,6 +79,7 @@ function MobileNavigation() {
           >
             <MobileNavLink href="/#songs">Songs</MobileNavLink>
             <MobileNavLink href="/#faq">FAQ</MobileNavLink>
+            <NavLink href="/team">The Team</NavLink>
             <MobileNavLink href="/contact">Contact</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
@@ -89,7 +90,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header className="pt-10">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
@@ -99,6 +100,7 @@ export function Header() {
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/#songs">Songs</NavLink>
               <NavLink href="/#faq">FAQ</NavLink>
+              <NavLink href="/team">The Team</NavLink>
               <NavLink href="/contact">Contact</NavLink>
             </div>
           </div>
