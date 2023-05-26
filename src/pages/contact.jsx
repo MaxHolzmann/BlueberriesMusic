@@ -1,69 +1,52 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import  { Header } from '@/components/Header'
 
 import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 
-export default function Login() {
+export default function Contact() {
   return (
     <>
       <Head>
-        <title>Sign In - TaxPal</title>
+        <title>Contact</title>
       </Head>
-      <AuthLayout>
-        <div className="flex flex-col">
-          <Link href="/" aria-label="Home">
-            <Logo className="h-10 w-auto" />
-          </Link>
-          <div className="mt-20">
-            <h2 className="text-lg font-semibold text-gray-900">
-              Sign in to your account
-            </h2>
-            <p className="mt-2 text-sm text-gray-700">
-              Don’t have an account?{' '}
-              <Link
-                href="/register"
-                className="font-medium text-blue-600 hover:underline"
-              >
-                Sign up
-              </Link>{' '}
-              for a free trial.
-            </p>
+
+      <Header></Header>
+
+          <div className="bg-white px-6 py-24 sm:py-32 lg:px-8">
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="text-base font-semibold leading-7 text-indigo-600">The Blueberries</p>
+              <h2 className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Contact Us</h2>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                For all booking needs or any inquiries, please contact us via our provided contact information.
+              </p>
+            </div>
+
+            <div className="mx-auto mt-32 grid max-w-2xl grid-cols-1 gap-9 text-base place-items-center leading-7 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <div>
+            <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">Call Or Text</h3>
+            <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
+              <a href="tel:920-266-9602">(920) 266-9602</a>
+            </address>
+          </div>
+          <div>
+            <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">Email</h3>
+            <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
+              <a href="mailto:business@blueberriesmusic.com">business@blueberriesmusic.com</a>
+            </address>
+          </div>
+          <div>
+            <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">Social Media</h3>
+            <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
+              <a href="">Facebook</a>
+            </address>
           </div>
         </div>
-        <form action="#" className="mt-10 grid grid-cols-1 gap-y-8">
-          <TextField
-            label="Email address"
-            id="email"
-            name="email"
-            type="email"
-            autoComplete="email"
-            required
-          />
-          <TextField
-            label="Password"
-            id="password"
-            name="password"
-            type="password"
-            autoComplete="current-password"
-            required
-          />
-          <div>
-            <Button
-              type="submit"
-              variant="solid"
-              color="blue"
-              className="w-full"
-            >
-              <span>
-                Sign in <span aria-hidden="true">&rarr;</span>
-              </span>
-            </Button>
-          </div>
-        </form>
-      </AuthLayout>
+
+          </div>    
     </>
   )
 }
