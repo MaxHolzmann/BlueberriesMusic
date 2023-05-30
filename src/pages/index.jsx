@@ -14,7 +14,7 @@ import { Testimonials } from '@/components/Testimonials'
 
 export default function Home() {
   return (
-    <>
+    <div className="scroll-smooth">
       <Head>
         <title>Blueberries Music</title>
         <meta
@@ -22,13 +22,13 @@ export default function Home() {
           content="Blueberries Music, an acapella group based out of Fond du Lac, Wisconsin."
         />
       </Head>
-      <Header/>
+      <Header />
       <main>
         <Hero />
         <SecondaryFeatures />
         <Faqs />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
