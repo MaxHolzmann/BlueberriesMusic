@@ -3,41 +3,42 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-faqs.jpg'
 
+//FINISH QUESTIONS
+
 const faqs = [
   [
     {
       question: 'Do you take song requests?',
       answer:
-      'Yes we do! However, we do have to find an arrangement and learn the arrangement before we can perform it, so we ask that any song requests are given 2-3 months in advance of your event.'    },
+        'Yes we do! However, we do have to find an arrangement and learn the arrangement before we can perform it, so we ask that any song requests are given 2-3 months in advance of your event.',
+    },
     {
       question: 'How much do you charge?',
       answer:
-      'We have no set price, many factors go into determining the price, such as travel, length of performance, or any song requests. Some events we even do for free! Contact us with your situation for specifics.'    },
+        'We have no set price, many factors go into determining the price, such as travel, length of performance, or any song requests. Some events we even do for free! Contact us with your situation for specifics.',
+    },
   ],
   [
     {
       question: 'Our event is tomorrow.. can we hire you to sing?',
       answer:
-      'We can not make any promises, but if you have no special song requests, we might be able to make it work! Feel free to contact us and we will always do our best to make it work, even on short notice. '    },
-    {
-      question:
-        'Do you need any equipment provided?',
-        answer:
-        'Most of the time, no! If we are performing in a very large venue, we may need one microphone, but 99% of the time we just need ourselves!',
-      }
-      ],
-  [
-    {
-      question:
-      'This is another question we get..',
-      answer:
-    'I cannot think of more questions but it looks good this way.',
+        'We can not make any promises, but if you have no special song requests, we might be able to make it work! Feel free to contact us and we will always do our best to make it work, even on short notice. ',
     },
     {
-      question:
-      'This is another question we get..',
+      question: 'Do you need any equipment provided?',
       answer:
-    'I cannot think of more questions but it looks good this way.',    },
+        'Most of the time, no! If we are performing in a very large venue, we may need one microphone, but 99% of the time we just need ourselves!',
+    },
+  ],
+  [
+    {
+      question: 'This is another question we get..',
+      answer: 'I cannot think of more questions but it looks good this way.',
+    },
+    {
+      question: 'This is another question we get..',
+      answer: 'I cannot think of more questions but it looks good this way.',
+    },
   ],
 ]
 
@@ -65,7 +66,8 @@ export function Faqs() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Question not answered? (LINK HERE) Contact us! We can personally answer any specific question you may have.
+            Question not answered? (LINK HERE) Contact us! We can personally
+            answer any specific question you may have.
           </p>
         </div>
         <ul

@@ -7,6 +7,8 @@ import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 
+//FINISH BIOS
+
 const people = [
   {
     name: 'Roan Henslin',
@@ -32,7 +34,6 @@ const people = [
     imageUrl: 'https://i.imgur.com/PIpqOJ3.png',
     bio: 'Jeromes bio',
   },
-  // More people...
 ]
 
 export default function Team() {
