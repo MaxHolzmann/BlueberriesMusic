@@ -6,17 +6,16 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 
 //change these images to images with song lists?
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotAcapella from '@/images/screenshots/acapella.png'
+import screenshotBarbershop from '@/images/screenshots/barbershop.png'
+import screenshotHoliday from '@/images/screenshots/holiday.png'
 
 const features = [
   {
     name: 'Barbershop',
     summary: 'Old timey arrangements of your favorite songs.',
-    description:
-      'This is text about barbershop',
-    image: screenshotProfitLoss,
+    description: 'This is text about barbershop',
+    image: screenshotBarbershop,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -40,18 +39,17 @@ const features = [
             strokeWidth={2}
             strokeLinecap="round"
             strokeLinejoin="round"
-/>
+          />
         </>
       )
     },
   },
   {
-    name: 'Holidays',
-    summary:
-      'We have a song for your holiday-themed parties.',
+    name: 'Holidays & Events',
+    summary: 'We have a song for your next events.',
     description:
-      'From Christmas to National Hot Dog Day, we have songs for your holiday parties!',
-    image: screenshotInventory,
+      'Whether you are hosting a birthday bash, a holiday party or a sporting event, we have the theme for your next event.',
+    image: screenshotHoliday,
     icon: function InventoryIcon() {
       return (
         <>
@@ -74,12 +72,11 @@ const features = [
     },
   },
   {
-    name: 'Events',
-    summary:
-      'Event-specific songs to set the tone.',
+    name: 'Acapella',
+    summary: 'Spins on your favorite songs, without the instruments!',
     description:
-    'Whether you need a National Anthem for your sports event or a spin on a Happy Birthday tune, we have you covered.', 
-    image: screenshotContacts,
+      'These songs do not meet the criteria of a barbershop piece, but are just as fun!',
+    image: screenshotAcapella,
     icon: function ContactsIcon() {
       return (
         <>
@@ -104,13 +101,7 @@ function Feature({ feature, isActive, className, ...props }) {
       className={clsx(className, !isActive && 'opacity-75 hover:opacity-100')}
       {...props}
     >
-      <div
-        className={clsx(
-          'w-9 rounded-lg',
-          isActive ? 'bg-blue-600' : 'bg-slate-500'
-        )}
-      >
-      </div>
+      {' '}
       <h3
         className={clsx(
           'mt-6 text-3xl font-medium',
@@ -218,7 +209,8 @@ export function SecondaryFeatures() {
             A diverse song portfolio.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            From x to y, we have a plethera of songs that will perfectly fit the vibe of your event.
+            From x to y, we have a plethera of songs that will perfectly fit the
+            vibe of your event.
           </p>
         </div>
         <FeaturesMobile />

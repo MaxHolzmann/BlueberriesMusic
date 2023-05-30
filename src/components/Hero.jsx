@@ -31,9 +31,8 @@ export function Hero() {
         Based out of Fond du Lac, Wisconsin.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Contact Us</Button>
+        <Button href="/contact">Contact Us</Button>
       </div>
-     
     </Container>
   )
 }
