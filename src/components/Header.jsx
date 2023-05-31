@@ -79,7 +79,7 @@ function MobileNavigation() {
           >
             <MobileNavLink href="/#songs">Songs</MobileNavLink>
             <MobileNavLink href="/#faq">FAQ</MobileNavLink>
-            <NavLink href="/team">The Team</NavLink>
+            <MobileNavLink href="/team">The Team</MobileNavLink>
             <MobileNavLink href="/contact">Contact</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
@@ -105,8 +105,8 @@ export function Header() {
             </div>
           </div>
           <div className="-mr-1 md:hidden">
-          <MobileNavigation />
-        </div>
+            <MobileNavigation />
+          </div>
         </nav>
       </Container>
     </header>
