@@ -66,8 +66,11 @@ export function Faqs() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Question not answered? (LINK HERE) Contact us! We can personally
-            answer any specific question you may have.
+            Question not answered?{' '}
+            <a className="text-blue-600" href="/contact">
+              Contact us!
+            </a>{' '}
+            We can personally answer any specific question you may have.
           </p>
         </div>
         <ul
