@@ -46,12 +46,15 @@ export default function Team() {
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
-            <p className="text-3xl font-bold leading-7 text-indigo-600">
+            <p className="text-4xl font-bold leading-7 text-indigo-600">
               Meet The Blueberries
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-xl leading-8 text-gray-600">
               Learn a little more about the individuals behind the quartet.
             </p>
+
+            <p className="mt-10 text-2xl font-semibold leading-6 text-indigo-600">Why We Sing</p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">Starting in high school, The Blueberries sang together in several acapella groups, some extracurricular and some entirely self operated. After graduating, they decided they wanted to keep music in their lives, and formed The Blueberries as a way of doing just that!</p>
           </div>
           <ul
             role="list"
