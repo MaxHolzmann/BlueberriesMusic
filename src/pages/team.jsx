@@ -14,25 +14,25 @@ const people = [
     name: 'Roan Henslin',
     role: 'Bass II',
     imageUrl: 'https://i.imgur.com/sDG54kO.png',
-    bio: 'Roans biography',
+    bio: "Hi, Im Roan! You'll hear me singing the low notes. Outside of singing, I am a fitness enthusiast attending Moraine Park Technichal College for Software Engineering!",
   },
   {
     name: 'Maximilian Holzmann',
     role: 'Tenor I, Web Designer',
     imageUrl: 'https://i.imgur.com/Ccbyua9.png',
-    bio: 'Maxs biography',
+    bio: "Hi! I'm Max. You'll hear me singing the high notes! Outside of The Blueberries, I am a Realtor, Web Developer and active community member, participating on two local Board of Directors in United Way FDL and South Shore Chorale!",
   },
   {
     name: 'Zachary Holzmann',
     role: 'Bass I',
     imageUrl: 'https://i.imgur.com/fpYYngK.png',
-    bio: 'Zachs bio',
+    bio: "Hi, I'm Zach! You'll hear me singing the notes that fill the chord, the baritone! Outside of singing, I am a student at UW Oshkosh majoring in Statistics with a minor in Psychology. I also love basketball!",
   },
   {
     name: 'Jerome Poltrock',
     role: 'Tenor II / Lead',
     imageUrl: 'https://i.imgur.com/PIpqOJ3.png',
-    bio: 'Jeromes bio',
+    bio: "Hi! I'm Jerome! You'll hear me singing the melody, or the lead parts! Outside of singing, I am an entreprenuer and a student of life! I love to learn new things and broaden my horizons in any way I can.",
   },
 ]
 
