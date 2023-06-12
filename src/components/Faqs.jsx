@@ -30,16 +30,7 @@ const faqs = [
         'Most of the time, no! If we are performing in a very large venue, we may need one microphone, but 99% of the time we just need ourselves!',
     },
   ],
-  [
-    {
-      question: 'This is another question we get..',
-      answer: 'I cannot think of more questions but it looks good this way.',
-    },
-    {
-      question: 'This is another question we get..',
-      answer: 'I cannot think of more questions but it looks good this way.',
-    },
-  ],
+  
 ]
 
 export function Faqs() {
@@ -75,7 +66,7 @@ export function Faqs() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2"
         >
           {faqs.map((column, columnIndex) => (
             <li key={columnIndex}>

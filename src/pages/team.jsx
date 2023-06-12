@@ -7,8 +7,6 @@ import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 
-//FINISH BIOS
-
 const people = [
   {
     name: 'Roan Henslin',
@@ -18,7 +16,7 @@ const people = [
   },
   {
     name: 'Maximilian Holzmann',
-    role: 'Tenor I, Web Designer',
+    role: 'Tenor I, Website Designer',
     imageUrl: 'https://i.imgur.com/Ccbyua9.png',
     bio: "Hi! I'm Max. You'll hear me singing the high notes! Outside of The Blueberries, I am a Realtor, Web Developer and active community member, participating on two local Board of Directors in United Way FDL and South Shore Chorale!",
   },
