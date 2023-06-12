@@ -196,7 +196,7 @@ function FeaturesDesktop() {
   )
 }
 
-export function SecondaryFeatures() {
+export function Songs() {
   return (
     <section
       id="songs"
@@ -209,8 +209,7 @@ export function SecondaryFeatures() {
             A diverse song portfolio.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            From old time favorites to modern pop hits, we have a plethera of songs that will perfectly fit the
-            vibe of your event.
+          We've got you covered with plenty of classics that are bound to elevate your event to the next level.
           </p>
         </div>
         <FeaturesMobile />
