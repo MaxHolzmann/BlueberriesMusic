@@ -12,7 +12,7 @@ const people = [
     name: 'Roan Henslin',
     role: 'Bass II',
     imageUrl: '/roan.png',
-    bio: "Hi, Im Roan! You'll hear me singing the low notes. Outside of singing, I am a fitness enthusiast attending Moraine Park Technichal College for Software Engineering!",
+    bio: "Hi, I'm Roan! You'll hear me singing the low notes. Outside of singing, I am a fitness enthusiast attending Moraine Park Technichal College for Software Engineering!",
   },
   {
     name: 'Maximilian Holzmann',
