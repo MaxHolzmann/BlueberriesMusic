@@ -14,7 +14,8 @@ const features = [
   {
     name: 'Barbershop',
     summary: 'Old timey arrangements of your favorite songs.',
-    description: 'We might not have the skimmer hats of old, but make no mistake, these songs are packing the barbershop punch!',
+    description:
+      'We might not have the skimmer hats of old, but make no mistake, these songs are packing the barbershop punch!',
     image: screenshotBarbershop,
     icon: function ReportingIcon() {
       let id = useId()
@@ -164,7 +165,7 @@ function FeaturesDesktop() {
               />
             ))}
           </Tab.List>
-          <Tab.Panels className="relative mt-20 overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 xl:px-16">
+          <Tab.Panels className="relative mt-20 overflow-hidden rounded-4xl bg-slate-200 px-14 py-5 xl:px-16">
             <div className="-mx-5 flex">
               {features.map((feature, featureIndex) => (
                 <Tab.Panel
@@ -201,7 +202,7 @@ export function Songs() {
     <section
       id="songs"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
+      className="mt-0 pb-0 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
@@ -209,7 +210,8 @@ export function Songs() {
             A diverse song portfolio.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-          We've got you covered with plenty of classics that are bound to elevate your event to the next level.
+            We've got you covered with plenty of classics that are bound to
+            elevate your event to the next level.
           </p>
         </div>
         <FeaturesMobile />

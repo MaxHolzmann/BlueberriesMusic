@@ -5,6 +5,8 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Songs } from '@/components/Songs'
+import { Container } from '@/components/Container'
+import { Media } from '@/components/Media'
 
 //temporarily removed Testiomonals until we have a bunch of them to use
 import { Testimonials } from '@/components/Testimonials'
@@ -23,6 +25,7 @@ export default function Home() {
       <main>
         <Hero />
         <Songs />
+        <Media />
         <Faqs />
       </main>
       <Footer />
