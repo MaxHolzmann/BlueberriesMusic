@@ -9,9 +9,9 @@ import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
 
-export function Media() {
+export function Performances() {
   return (
-    <Container className="mb-10 mt-0 text-center">
+    <Container id="performances" className="mb-10 mt-0 text-center">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Performances
       </h1>

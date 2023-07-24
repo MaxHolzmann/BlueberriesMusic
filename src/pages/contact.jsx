@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
-
+import { Footer } from '@/components/Footer'
 import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
@@ -64,6 +64,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }

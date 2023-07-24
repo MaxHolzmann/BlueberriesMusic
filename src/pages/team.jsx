@@ -7,6 +7,8 @@ import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 
+import { Footer } from '@/components/Footer'
+
 const people = [
   {
     name: 'Roan Henslin',
@@ -91,6 +93,7 @@ export default function Team() {
           </ul>
         </div>
       </div>
+      <Footer></Footer>
     </>
   )
 }

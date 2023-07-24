@@ -78,6 +78,7 @@ function MobileNavigation() {
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
             <MobileNavLink href="/#songs">Songs</MobileNavLink>
+            <MobileNavLink href="/#performances">Performances</MobileNavLink>
             <MobileNavLink href="/#faq">FAQ</MobileNavLink>
             <MobileNavLink href="/team">The Team</MobileNavLink>
             <MobileNavLink href="/contact">Contact</MobileNavLink>
@@ -99,6 +100,7 @@ export function Header() {
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/#songs">Songs</NavLink>
+              <NavLink href="/#performances">Performances</NavLink>
               <NavLink href="/#faq">FAQ</NavLink>
               <NavLink href="/team">The Team</NavLink>
               <NavLink href="/contact">Contact</NavLink>
