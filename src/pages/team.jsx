@@ -11,25 +11,25 @@ const people = [
   {
     name: 'Roan Henslin',
     role: 'Bass II',
-    imageUrl: 'https://i.imgur.com/sDG54kO.png',
+    imageUrl: '/roan.png',
     bio: "Hi, Im Roan! You'll hear me singing the low notes. Outside of singing, I am a fitness enthusiast attending Moraine Park Technichal College for Software Engineering!",
   },
   {
     name: 'Maximilian Holzmann',
     role: 'Tenor I, Website Designer',
-    imageUrl: 'https://i.imgur.com/Ccbyua9.png',
+    imageUrl: '/max.png',
     bio: "Hi! I'm Max. You'll hear me singing the high notes! Outside of The Blueberries, I am a Realtor, Web Developer and active community member, participating on two local Board of Directors in United Way FDL and South Shore Chorale!",
   },
   {
     name: 'Zachary Holzmann',
     role: 'Bass I',
-    imageUrl: 'https://i.imgur.com/fpYYngK.png',
+    imageUrl: '/zach.png',
     bio: "Hi, I'm Zach! You'll hear me singing the notes that fill the chord, the baritone! Outside of singing, I am a student at UW Oshkosh majoring in Statistics with a minor in Psychology. I also love basketball!",
   },
   {
     name: 'Jerome Poltrock',
     role: 'Tenor II / Lead',
-    imageUrl: 'https://i.imgur.com/PIpqOJ3.png',
+    imageUrl: '/jerome.png',
     bio: "Hi! I'm Jerome! You'll hear me singing the melody, or the lead parts! Outside of singing, I am an entreprenuer and a student of life! I love to learn new things and broaden my horizons in any way I can.",
   },
 ]
@@ -53,8 +53,16 @@ export default function Team() {
               Learn a little more about the individuals behind the quartet.
             </p>
 
-            <p className="mt-10 text-2xl font-semibold leading-6 text-indigo-600">Why We Sing</p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">Starting in high school, The Blueberries sang together in several acapella groups, some extracurricular and some entirely self operated. After graduating, they decided they wanted to keep music in their lives, and formed The Blueberries as a way of doing just that!</p>
+            <p className="mt-10 text-2xl font-semibold leading-6 text-indigo-600">
+              Why We Sing
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Starting in high school, The Blueberries sang together in several
+              acapella groups, some extracurricular and some entirely self
+              operated. After graduating, they decided they wanted to keep music
+              in their lives, and formed The Blueberries as a way of doing just
+              that!
+            </p>
           </div>
           <ul
             role="list"
@@ -63,7 +71,7 @@ export default function Team() {
             {people.map((person) => (
               <li key={person.name} className="flex flex-col gap-6 xl:flex-row">
                 <img
-                  className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
+                  className="aspect-[4/5] w-44 flex-none rounded-4xl object-contain"
                   src={person.imageUrl}
                   alt=""
                 />
