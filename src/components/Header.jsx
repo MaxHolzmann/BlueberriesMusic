@@ -7,6 +7,9 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+
+const socials = [{ name: 'Facebook', href: "https://www.facebook.com/people/Blueberries-Music/100088449282150/" }, { name: 'YouTube', href: "https://www.youtube.com/@blueberries_music" }, { name: "Instagram", href: "https://www.instagram.com/blueberries.music/" }, { name: "TikTok", href: "https://www.tiktok.com/@blueberriesmusic" }]
 
 function MobileNavLink({ href, children }) {
   return (
@@ -81,6 +84,35 @@ function MobileNavigation() {
             <MobileNavLink href="/#performances">Performances</MobileNavLink>
             <MobileNavLink href="/#faq">FAQ</MobileNavLink>
             <MobileNavLink href="/team">The Team</MobileNavLink>
+            <Popover className="relative">
+              <Popover.Button className="flex w-full p-2">
+                Socials
+                <ChevronDownIcon className="inline-block h-5 w-5  text-gray-400" aria-hidden="true" />
+              </Popover.Button>
+
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-200"
+                enterFrom="opacity-0 translate-y-1"
+                enterTo="opacity-100 translate-y-0"
+                leave="transition ease-in duration-150"
+                leaveFrom="opacity-100 translate-y-0"
+                leaveTo="opacity-0 translate-y-1"
+              >
+                <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+                  {socials.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      target="_blank"
+                      className="block rounded-lg px-3 py-2"
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </Popover.Panel>
+              </Transition>
+            </Popover>
             <MobileNavLink href="/contact">Contact</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
@@ -103,6 +135,35 @@ export function Header() {
               <NavLink href="/#performances">Performances</NavLink>
               <NavLink href="/#faq">FAQ</NavLink>
               <NavLink href="/team">The Team</NavLink>
+              <Popover className="relative">
+                <Popover.Button className="inline-block rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                  Socials
+                  <ChevronDownIcon className="inline-block h-5 w-5  text-gray-400" aria-hidden="true" />
+                </Popover.Button>
+
+                <Transition
+                  as={Fragment}
+                  enter="transition ease-out duration-200"
+                  enterFrom="opacity-0 translate-y-1"
+                  enterTo="opacity-100 translate-y-0"
+                  leave="transition ease-in duration-150"
+                  leaveFrom="opacity-100 translate-y-0"
+                  leaveTo="opacity-0 translate-y-1"
+                >
+                  <Popover.Panel className="absolute text-center -left-8 top-full z-10 mt-3 w-40 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+                    {socials.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        target="_blank"
+                        className="block rounded-lg py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+                      >
+                        {item.name}
+                      </a>
+                    ))}
+                  </Popover.Panel>
+                </Transition>
+              </Popover>
               <NavLink href="/contact">Contact</NavLink>
             </div>
           </div>

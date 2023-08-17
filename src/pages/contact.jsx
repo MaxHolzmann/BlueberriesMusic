@@ -53,12 +53,30 @@ export default function Contact() {
             <h3 className="border-l border-indigo-600 pl-6 font-semibold text-gray-900">
               Social Media
             </h3>
-            <address className="border-l border-gray-200 pl-6 pt-2 not-italic text-gray-600">
+            <address className="border-l grid grid-cols-2 gap-2 border-gray-200 pl-6 pt-2 not-italic text-gray-600">
               <a
                 target="_blank"
                 href="https://www.facebook.com/people/Blueberries-Music/100088449282150/"
               >
                 Facebook
+              </a>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/@blueberries_music"
+              >
+                YouTube
+              </a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/blueberries.music/"
+              >
+                Instagram
+              </a>
+              <a
+                target="_blank"
+                href="https://www.tiktok.com/@blueberriesmusic"
+              >
+                TikTok
               </a>
             </address>
           </div>
