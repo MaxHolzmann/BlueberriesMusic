@@ -15,8 +15,16 @@ export function Performances() {
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Performances
       </h1>
+
+      <p className="mt-5 text-xl text-slate-900 text-center flex flex-col items-center">
+        We recently were granted the opportunity to get a studio recording of one of our songs! Take a listen below.
+        <audio controls type="audio/wav" className="mt-3">
+        <source src="/leaveherjonny.wav"/>
+        </audio>
+      </p>
+
       <p className="mt-5 text-xl text-slate-900">
-        Our current performance recordings are not the highest quality videos,
+        Our current performance video recordings are not the highest quality videos,
         however we hope that you can get a good idea of what we sound like from
         them.
       </p>
