@@ -17,7 +17,7 @@ export function Performances() {
       </h1>
 
       <p className="mt-5 text-xl text-slate-900 text-center flex flex-col items-center">
-        We recently were granted the opportunity to get a studio recording of one of our songs! A big thank you to Virgo Pyant for recording and mixing this for us. Take a listen below.
+        We recently were granted the opportunity to get a studio recording of one of our songs! A big thank you to UW Oshkosh student Virgo Pyant for recording and mixing this for us. Take a listen below.
         <audio controls type="audio/wav" className="mt-3">
         <source src="/leaveherjonny.wav"/>
         </audio>
